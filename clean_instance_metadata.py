@@ -1,8 +1,7 @@
 import json
 import requests
 
-headers = {'Authorization': "Bearer IiLrsPhpjMC3jc5lABN3VaAXB8cJ8WadvhN1BhUmwM4otAPW1LlOWGRThMIZsW3QTrEtd8itxJPnBd3DAyFiMDsLwrbjaUcpGBXlAfqyOvnP6LE3BeazclMh4hdDRnPu"}
-
+headers = {'Authorization': "Bearer make your own"}
 
 def fetch_instance_data(instance_url):
     response = requests.get(instance_url, headers=headers)
